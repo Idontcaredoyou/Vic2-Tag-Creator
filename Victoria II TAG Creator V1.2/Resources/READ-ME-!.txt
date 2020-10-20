@@ -1,0 +1,23 @@
+﻿Summary :
+	In this folder (Resources) you will find the local fils this software is using bu default. You can change the files or replace them with yours and the tool will
+	Dynamically change it's properties and options to provide the values that will fit your mods by any aspect.
+	This makes the tool suitable for new patches and updates of Victoria II for any expansion pack. All you need is just to update the Resources manually.
+
+Instructions and Tips :
+	0) If you are not sure what is it, Then better off do not change here anything. or it will cause the game to CTD and the tool to react incorrectly.
+	1) If you are using Notepad++ then switch the language always to C++ or C and press in a row "Alt + 4,3,2,1" to collapse all the blocks and see the highlighting.
+	2) If you will edit some files try to avoid comments (#...) because my interpretor may by error (in rare situations) tokenize objects from coommets. 
+	3) Use notepad++ to edit the text files. Atleast do not use an editor without collapsing and highlighting abilities, just to make it easier for you.
+	4) When editing the Default_Parties.txt file please do not put any spaces except in the name, or it will cause a bug.
+	5) When editing the House_Of_lords.txt please make sure that the names strongly typed. Case sensetive and without mistakes. or the game will CTD.
+	6) Put your new resources in the "/Game/" directory. Make sure that your files are properly written and already working in the game. 
+	7) You should update the Default_Parties.txt and House_Of_Lords.txt if you have changed anything related to issues or governments and ideologies.
+	8) Learn "Regular-Expressions" and use this when working on mods for massive\complicated replacing\finding with Notepad++, it will help you a lot : http://en.wikipedia.org/wiki/Regular_expression
+	9) If making new mods using the moddir then try to use "replace_path" when needed, It will improve the order of your mods.
+		9.1) If the "replace_path" does not work properly then report to Paradox Interactive to improve the modding abilities for Victoria II and fix their damn annoying bugs.
+		9.2) Its known that "replace_path" has serious bugs. But still it works sometimes and helps a lot.
+
+Notes :
+	If you reuploading this tool DO NOT DELETE THIS FILE !
+
+-@ WKIII March 2015
